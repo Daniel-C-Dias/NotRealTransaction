@@ -1,0 +1,11 @@
+C:\Git\NotRealTransactions\MovementsProject\bin\Debug\netcoreapp2.0\MovementsProject.deps.json
+C:\Git\NotRealTransactions\MovementsProject\bin\Debug\netcoreapp2.0\MovementsProject.runtimeconfig.json
+C:\Git\NotRealTransactions\MovementsProject\bin\Debug\netcoreapp2.0\MovementsProject.runtimeconfig.dev.json
+C:\Git\NotRealTransactions\MovementsProject\bin\Debug\netcoreapp2.0\MovementsProject.dll
+C:\Git\NotRealTransactions\MovementsProject\bin\Debug\netcoreapp2.0\MovementsProject.pdb
+C:\Git\NotRealTransactions\MovementsProject\obj\Debug\netcoreapp2.0\MovementsProject.csprojResolveAssemblyReference.cache
+C:\Git\NotRealTransactions\MovementsProject\obj\Debug\netcoreapp2.0\MovementsProject.csproj.CoreCompileInputs.cache
+C:\Git\NotRealTransactions\MovementsProject\obj\Debug\netcoreapp2.0\MovementsProject.AssemblyInfoInputs.cache
+C:\Git\NotRealTransactions\MovementsProject\obj\Debug\netcoreapp2.0\MovementsProject.AssemblyInfo.cs
+C:\Git\NotRealTransactions\MovementsProject\obj\Debug\netcoreapp2.0\MovementsProject.dll
+C:\Git\NotRealTransactions\MovementsProject\obj\Debug\netcoreapp2.0\MovementsProject.pdb
