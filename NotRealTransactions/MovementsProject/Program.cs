@@ -58,6 +58,14 @@ namespace MovementsProject
 
             Console.WriteLine("\n\nYou're supposed to be Movements but you're different!\n" + sonOfMovemets.whatImI());
 
+            Movements aMovement = new MovementA();
+            Movements bMovement = new MovementB();
+            Movements cMovement = new MovementC();
+
+            Console.WriteLine("\n\nWhat's your name Movement A?\t\t" + aMovement.whatsMyName());
+            Console.WriteLine("\nWhat's your name Movement B?\t\t" + bMovement.whatsMyName());
+            Console.WriteLine("\nWhat's your name Movement C?\t\t" + cMovement.whatsMyName());
+
             Console.ReadLine();
         }
     }

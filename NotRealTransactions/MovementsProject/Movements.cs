@@ -22,5 +22,10 @@ namespace MovementsProject
         }
 
         public abstract string whatImI();
+
+        public virtual string whatsMyName()
+        {
+            return "My name is Movement";
+        }
     }
 }
