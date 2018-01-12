@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Git\\NotRealTransactions\\MovementsProject\\MovementsProject.csproj",
+      "projectUniqueName": "C:\\Git\\NotRealTransaction\\NotRealTransactions\\MovementsProject\\MovementsProject.csproj",
       "projectName": "MovementsProject",
-      "projectPath": "C:\\Git\\NotRealTransactions\\MovementsProject\\MovementsProject.csproj",
+      "projectPath": "C:\\Git\\NotRealTransaction\\NotRealTransactions\\MovementsProject\\MovementsProject.csproj",
       "packagesPath": "C:\\Users\\daniel.dias\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\NotRealTransactions\\MovementsProject\\obj\\",
+      "outputPath": "C:\\Git\\NotRealTransaction\\NotRealTransactions\\MovementsProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

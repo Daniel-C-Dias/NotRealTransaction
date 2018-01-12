@@ -5630,11 +5630,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Git\\NotRealTransactions\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Git\\NotRealTransaction\\NotRealTransactions\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Git\\NotRealTransactions\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Git\\NotRealTransaction\\NotRealTransactions\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\daniel.dias\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\NotRealTransactions\\Tests\\obj\\",
+      "outputPath": "C:\\Git\\NotRealTransaction\\NotRealTransactions\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

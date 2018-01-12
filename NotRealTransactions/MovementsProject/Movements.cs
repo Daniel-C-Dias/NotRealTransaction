@@ -2,9 +2,9 @@
 
 namespace MovementsProject
 {
-    public class Movements
+    public abstract class Movements
     {
-        public Movements()
+        protected Movements()
         {
         }
 
@@ -14,5 +14,13 @@ namespace MovementsProject
         public long longPadrao { get; set; }
         public Object objectPadrao { get; set; }
         public String stringPadrao { get; set; }
+        public int value { get => value; set => this.value = value; }
+
+        public virtual string showMessage()
+        {
+            return "I am a message";
+        }
+
+        public abstract string whatImI();
     }
 }
