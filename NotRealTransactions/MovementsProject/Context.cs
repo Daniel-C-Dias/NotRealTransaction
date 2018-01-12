@@ -7,6 +7,8 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
+using System;
+
 namespace MovementsProject
 {
     /// <summary>
@@ -15,6 +17,11 @@ namespace MovementsProject
     public class Context : Movements
     {
         public int newValue() => value;
+
+        public override void sayHello()
+        {
+            Console.WriteLine("Hello I am Context");
+        }
 
         public string showMessage()
         {

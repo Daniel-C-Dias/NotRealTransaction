@@ -10,12 +10,16 @@
 namespace MovementsProject
 {
     using System;
+    using System.Collections.Generic;
+    using static MovementsProject.Movements;
 
     /// <summary>
     /// Main
     /// </summary>
     internal class Program
     {
+        private int x { get; set; }
+
         private static void Main(string[] args)
         {
             Console.WriteLine("LONG:\n\t* Long is " + sizeof(long) + " Bytes long \n\t* Default Value is " + default(long) + "\n\t* Type is " + typeof(long));
@@ -65,6 +69,36 @@ namespace MovementsProject
             Console.WriteLine("\n\nWhat's your name Movement A?\t\t" + aMovement.whatsMyName());
             Console.WriteLine("\nWhat's your name Movement B?\t\t" + bMovement.whatsMyName());
             Console.WriteLine("\nWhat's your name Movement C?\t\t" + cMovement.whatsMyName());
+
+            Console.WriteLine("\n\nSay hello Movement.\t\t");
+            sonOfMovemets.sayHello();
+
+            sonOfMovemets.DisplayMovementValue();
+
+            Console.WriteLine("\n\nConfigureAwait(false) configures the task so that continuation after the await does not have to " +
+                "\nbe run in the caller context," +
+                "\ntherefore avoiding any possible deadlocks.");
+
+            IList<Movements> numMovements = new List<Movements>()
+            {
+                new Context(),
+                new MovementA(),
+                new MovementB(),
+                new MovementC()
+            };
+
+            numMovements.Add(new MovementA());
+
+            foreach (var m in numMovements)
+            {
+                m.sayHello();
+            }
+
+            // Declare a list of type int.
+            GenericList<int> list1 = new GenericList<int>();
+
+            // Declare a list of type string.
+            GenericList<string> list2 = new GenericList<string>();
 
             Console.ReadLine();
         }

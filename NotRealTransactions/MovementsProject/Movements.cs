@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace MovementsProject
 {
-    public abstract class Movements
+    public abstract class Movements : IMovement
     {
         protected Movements()
         {
@@ -16,6 +17,20 @@ namespace MovementsProject
         public String stringPadrao { get; set; }
         public int value { get => value; set => this.value = value; }
 
+        public async Task<int> CalculateMovemntValue()
+        {
+            await Task.Delay(1000); // 1 second delay
+            return 1;
+        }
+
+        public async Task DisplayMovementValue()
+        {
+            var movementResult = await Task.Run(() => CalculateMovemntValue().ConfigureAwait(false));
+            Console.WriteLine("\n\nThe Movement result is: " + movementResult);
+        }
+
+        public abstract void sayHello();
+
         public virtual string showMessage()
         {
             return "I am a message";
@@ -26,6 +41,15 @@ namespace MovementsProject
         public virtual string whatsMyName()
         {
             return "My name is Movement";
+        }
+
+        // Declare the generic class.
+        public class GenericList<T>
+        {
+            private void Add(T input)
+            {
+                // Method intentionally left empty.
+            }
         }
     }
 }

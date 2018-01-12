@@ -7,6 +7,8 @@
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
 
+using System;
+
 namespace MovementsProject
 {
     /// <summary>
@@ -14,6 +16,11 @@ namespace MovementsProject
     /// </summary>
     internal class MovementB : Movements
     {
+        public override void sayHello()
+        {
+            Console.WriteLine("Hello I am B");
+        }
+
         public override string whatImI()
         {
             throw new System.NotImplementedException();
